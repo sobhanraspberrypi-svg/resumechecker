@@ -5,3 +5,4 @@ python-docx
 google-genai
 pydantic
 openpyxl
+plotly==5.18.0
