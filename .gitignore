@@ -1,0 +1,32 @@
+# Secrets — NEVER commit
+.streamlit/secrets.toml
+.env
+*.key
+
+# ChromaDB local data
+data/chroma_db/
+data/*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+.streamlit/ 
