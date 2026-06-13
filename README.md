@@ -422,7 +422,7 @@ __pycache__/
 ```
 MIT License
 
-Copyright (c) 2025 Sobhan Mohanty
+Copyright (c) 2025 Sobhan Mishra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -447,7 +447,7 @@ THE SOFTWARE.
 
 ## 👤 Author
 
-**Sobhan Mohanty**  
+**Sobhan Mishra**  
 Senior Geospatial Data Scientist & ML Engineer  
 Geospatial and AI Lead — SatSure, Bengaluru
 
