@@ -1,0 +1,157 @@
+# CVRadar Domain Taxonomy
+# Format: GROUP | canonical_name | synonym1, synonym2, synonym3 ...
+# Used by Track 1 local stream classifier (zero LLM, regex + synonym matching)
+# Groups allow chart-level aggregation in analytics dashboard
+
+# ============================================================
+# GEOSPATIAL & EARTH SCIENCES
+# ============================================================
+GEOSPATIAL | Remote Sensing | remote sensing, earth observation, satellite imagery, satellite image, eo, rs, landsat, sentinel, modis, spot, resourcesat, ikonos, worldview, pleiades, rapideye, ndvi, ndwi, ndbi, evi, lswi, savi, vegetation index, spectral index, image classification, supervised classification, unsupervised classification, object based classification, obia, change detection, lulc, land use land cover, land cover mapping, crop mapping, crop classification, crop monitoring, forest cover, deforestation mapping, urban mapping, flood mapping, burnt area, fire detection, biomass estimation, agro-meteorological, sar, synthetic aperture radar, radar imagery, microwave remote sensing, hyperspectral, multispectral, lidar, photogrammetry, aerial photography, drone imagery, uav imagery, image processing, radiometric correction, atmospheric correction, geometric correction, orthorectification, mosaic, pan sharpening, erdas imagine, envi, snap, google earth engine, gee, eodag, sentinelhub, planetary computer, aws earth, stac, raster processing, pixel classification, accuracy assessment, confusion matrix, kappa coefficient
+GEOSPATIAL | GIS | gis, geographic information system, geoinformatics, geomatics, spatial analysis, geospatial, arcgis, qgis, arcmap, arcpro, mapinfo, grass gis, saga gis, supermap, erdas, mapserver, geoserver, postgis, spatialite, spatial database, vector data, raster data, shapefile, geodatabase, geojson, kml, kmz, wms, wfs, wcs, ogc, spatial query, network analysis, overlay analysis, buffer analysis, proximity analysis, watershed delineation, terrain analysis, dem, digital elevation model, dtm, dsm, slope analysis, aspect analysis, viewshed, flow direction, flow accumulation, spatial interpolation, idw, kriging, thiessen, voronoi, spatial statistics, hotspot analysis, kernel density, suitability analysis, site suitability, land suitability, cartographic design, map layout, atlas, coordinate system, projection, datum, crs, epsg, utm, wgs84, geocoding, georeferencing, digitizing, topology, feature extraction, geodata, geoportal, web gis, mobile gis, gis application, gis development, geoprocessing, model builder, python gis, geopandas, gdal, ogr, shapely, fiona, rasterio, pyproj, folium, leaflet
+GEOSPATIAL | Geography | geography, physical geography, human geography, regional geography, urban geography
+GEOSPATIAL | Geology | geology, geological sciences, earth science, lithology, stratigraphy, mineralogy, petrology
+GEOSPATIAL | Geophysics | geophysics, applied geophysics, exploration geophysics, seismology
+GEOSPATIAL | Cartography | cartography, mapmaking, topography, geodesy, photogrammetry, land surveying, surveying
+GEOSPATIAL | Oceanography | oceanography, marine science, ocean science, physical oceanography, biological oceanography
+GEOSPATIAL | Atmospheric Science | atmospheric science, meteorology, climatology, weather science, climate science
+GEOSPATIAL | Hydrology | hydrology, water resources engineering, hydrogeology, flood modelling, flood simulation, groundwater modelling, hydrological modelling, rainfall runoff, hec-hms, hec-ras, swat model, mike flood, aquifer modelling, groundwater recharge, streamflow analysis, discharge measurement, hydraulic modelling, water balance, drought modelling, evapotranspiration modelling, soil moisture modelling, irrigation scheduling, water allocation
+GEOSPATIAL | Environmental Science | environmental science, environmental management, environmental studies, ecology, ecoscience
+
+# ============================================================
+# ENGINEERING
+# ============================================================
+ENGINEERING | Civil Engineering | civil engineering, structural engineering, geotechnical engineering, construction engineering, transportation engineering, highway engineering
+ENGINEERING | Mechanical Engineering | mechanical engineering, thermal engineering, manufacturing engineering, production engineering
+ENGINEERING | Electrical Engineering | electrical engineering, power systems, power engineering
+ENGINEERING | Electronics Engineering | electronics engineering, electronics and communication, ECE, telecommunication engineering, signal processing
+ENGINEERING | Computer Science Engineering | computer science engineering, CSE, software engineering, computing science
+ENGINEERING | Information Technology | information technology, IT, information systems, information science
+ENGINEERING | Chemical Engineering | chemical engineering, process engineering, petroleum engineering
+ENGINEERING | Aerospace Engineering | aerospace engineering, aeronautical engineering, avionics, astronautical engineering
+ENGINEERING | Biomedical Engineering | biomedical engineering, bioinstrumentation, medical devices
+ENGINEERING | Environmental Engineering | environmental engineering, pollution control engineering, waste management engineering
+ENGINEERING | Agricultural Engineering | agricultural engineering, farm engineering, irrigation engineering, agri-engineering
+ENGINEERING | Mining Engineering | mining engineering, mineral engineering, extractive metallurgy
+ENGINEERING | Metallurgical Engineering | metallurgical engineering, materials science, materials engineering, metallurgy
+ENGINEERING | Industrial Engineering | industrial engineering, systems engineering, operations engineering, ergonomics
+ENGINEERING | Naval Architecture | naval architecture, marine engineering, ship building
+ENGINEERING | Mechatronics | mechatronics, robotics engineering, automation engineering, control systems
+ENGINEERING | Nuclear Engineering | nuclear engineering, radiation engineering, reactor engineering
+
+# ============================================================
+# COMPUTER SCIENCE & DATA SCIENCE
+# ============================================================
+DATA_SCIENCE | Data Science | data science, data analytics, data engineering, analytics, pandas, numpy, scikit-learn, sklearn, jupyter, data visualization, tableau, power bi, data pipeline, etl, feature engineering, exploratory data analysis, eda, statistical modelling, predictive modelling
+DATA_SCIENCE | Machine Learning | machine learning, ml, deep learning, dl, neural networks, artificial intelligence, ai, tensorflow, pytorch, keras, xgboost, lightgbm, random forest, gradient boosting, convolutional neural network, cnn, recurrent neural network, rnn, lstm, transformer, bert, yolo, object detection, semantic segmentation, image segmentation, transfer learning, mlops, model deployment
+DATA_SCIENCE | Computer Vision | computer vision, image processing, image analysis, opencv, visual computing, pattern recognition, feature extraction, image segmentation, object recognition, face detection
+DATA_SCIENCE | Natural Language Processing | natural language processing, NLP, text analytics, computational linguistics
+DATA_SCIENCE | Statistics | statistics, applied statistics, biostatistics, mathematical statistics, econometrics
+DATA_SCIENCE | Mathematics | mathematics, applied mathematics, pure mathematics, computational mathematics
+DATA_SCIENCE | Operations Research | operations research, optimization, decision science, management science
+DATA_SCIENCE | Bioinformatics | bioinformatics, computational biology, genomics, proteomics
+DATA_SCIENCE | Cybersecurity | cybersecurity, information security, network security, ethical hacking
+
+# ============================================================
+# NATURAL SCIENCES
+# ============================================================
+NATURAL_SCIENCES | Physics | physics, applied physics, theoretical physics, quantum physics, astrophysics
+NATURAL_SCIENCES | Chemistry | chemistry, organic chemistry, inorganic chemistry, physical chemistry, analytical chemistry
+NATURAL_SCIENCES | Biology | biology, life sciences, cell biology, molecular biology, zoology, botany
+NATURAL_SCIENCES | Agriculture | agriculture, agronomy, crop science, plant science, agricultural science, horticulture
+NATURAL_SCIENCES | Forestry | forestry, forest science, silviculture, arboriculture, wood science
+NATURAL_SCIENCES | Soil Science | soil science, pedology, land science, edaphology
+NATURAL_SCIENCES | Microbiology | microbiology, virology, bacteriology, parasitology, immunology
+NATURAL_SCIENCES | Biochemistry | biochemistry, molecular biochemistry, clinical biochemistry
+NATURAL_SCIENCES | Genetics | genetics, genomics, genetic engineering, biotechnology
+NATURAL_SCIENCES | Marine Biology | marine biology, aquatic biology, fisheries, aquaculture
+NATURAL_SCIENCES | Wildlife Science | wildlife science, conservation biology, wildlife management, zoology
+
+# ============================================================
+# AGRICULTURE & FOOD SCIENCES
+# ============================================================
+AGRICULTURE | Agricultural Science | agricultural science, agri science, agronomy, farm science
+AGRICULTURE | Food Technology | food technology, food science, food engineering, dairy technology, nutrition science
+AGRICULTURE | Veterinary Science | veterinary science, animal science, veterinary medicine, livestock management
+AGRICULTURE | Fisheries | fisheries, aquaculture, fishery science, marine fisheries
+
+# ============================================================
+# MEDICINE & HEALTH SCIENCES
+# ============================================================
+HEALTH | Medicine | medicine, MBBS, medical science, clinical medicine, MD
+HEALTH | Public Health | public health, epidemiology, community medicine, global health
+HEALTH | Pharmacy | pharmacy, pharmaceutical science, pharmacology, drug science
+HEALTH | Nursing | nursing, nursing science, midwifery, clinical nursing
+HEALTH | Dentistry | dentistry, dental science, oral health
+HEALTH | Physiotherapy | physiotherapy, physical therapy, rehabilitation science
+HEALTH | Occupational Therapy | occupational therapy, rehabilitation
+HEALTH | Nutrition | nutrition, dietetics, food and nutrition
+HEALTH | Medical Imaging | medical imaging, radiology, nuclear medicine
+
+# ============================================================
+# SOCIAL SCIENCES
+# ============================================================
+SOCIAL_SCIENCES | Economics | economics, applied economics, development economics, macroeconomics, microeconomics, econometrics
+SOCIAL_SCIENCES | Political Science | political science, governance, international relations, public policy, political studies
+SOCIAL_SCIENCES | Sociology | sociology, social work, social studies, criminology
+SOCIAL_SCIENCES | Psychology | psychology, applied psychology, clinical psychology, counselling
+SOCIAL_SCIENCES | Anthropology | anthropology, social anthropology, cultural anthropology, archaeology
+SOCIAL_SCIENCES | History | history, historical studies, ancient history, modern history
+SOCIAL_SCIENCES | Philosophy | philosophy, logic, ethics, metaphysics
+SOCIAL_SCIENCES | Linguistics | linguistics, applied linguistics, phonetics, language studies
+SOCIAL_SCIENCES | International Studies | international studies, international development, peace studies
+
+# ============================================================
+# LAW
+# ============================================================
+LAW | Law | law, LLB, LLM, legal studies, jurisprudence, corporate law, criminal law, constitutional law, international law, intellectual property law, human rights law, environmental law, tax law, labour law
+
+# ============================================================
+# MANAGEMENT & BUSINESS
+# ============================================================
+MANAGEMENT | Business Administration | business administration, MBA, management, business management, general management
+MANAGEMENT | Finance | finance, financial management, accounting, chartered accountancy, CA, CFA, banking, financial analysis
+MANAGEMENT | Marketing | marketing, digital marketing, brand management, market research, sales management
+MANAGEMENT | Human Resources | human resources, HR management, organizational behaviour, talent management
+MANAGEMENT | Supply Chain | supply chain management, logistics, operations management, procurement
+MANAGEMENT | Entrepreneurship | entrepreneurship, innovation management, startup management
+MANAGEMENT | International Business | international business, global business, trade management
+MANAGEMENT | Healthcare Management | healthcare management, hospital administration, health management
+MANAGEMENT | Public Administration | public administration, government administration, civil services
+
+# ============================================================
+# ARTS & HUMANITIES
+# ============================================================
+ARTS | Fine Arts | fine arts, visual arts, painting, sculpture, drawing
+ARTS | Performing Arts | performing arts, music, dance, theatre, drama
+ARTS | Film & Media | film studies, media studies, mass communication, journalism, broadcasting
+ARTS | Design | design, graphic design, industrial design, interior design, fashion design, UX design, product design
+ARTS | Literature | literature, English literature, comparative literature, creative writing
+ARTS | Languages | languages, foreign languages, translation, interpretation, linguistics
+
+# ============================================================
+# ARCHITECTURE & PLANNING
+# ============================================================
+ARCHITECTURE | Architecture | architecture, urban design, landscape architecture
+ARCHITECTURE | Urban Planning | urban planning, city planning, regional planning, town planning, land use planning
+
+# ============================================================
+# EDUCATION
+# ============================================================
+EDUCATION | Education | education, teaching, pedagogy, curriculum development, educational technology, instructional design
+EDUCATION | Physical Education | physical education, sports science, kinesiology, sports management
+
+# ============================================================
+# DEFENSE & SECURITY
+# ============================================================
+DEFENSE | Defense Studies | defense studies, military science, strategic studies, security studies
+DEFENSE | Criminology | criminology, forensic science, forensics, criminal justice, policing
+
+# ============================================================
+# INTERDISCIPLINARY / EMERGING
+# ============================================================
+INTERDISCIPLINARY | Climate Science | climate science, climate change, sustainability science, environmental policy
+INTERDISCIPLINARY | Energy Studies | energy engineering, renewable energy, energy policy, solar energy, wind energy
+INTERDISCIPLINARY | Disaster Management | disaster management, emergency management, risk assessment, crisis management
+INTERDISCIPLINARY | GeoAI | geoai, geospatial ai, spatial data science, geospatial data science
+INTERDISCIPLINARY | Digital Humanities | digital humanities, computational social science
+INTERDISCIPLINARY | Cognitive Science | cognitive science, neuroscience, brain science, computational neuroscience
